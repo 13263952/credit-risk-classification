@@ -1,5 +1,5 @@
-# Credit Risk Classification Project
 
+![Classificcation Report](images/banner.png)
 ## Overview
 This project aims to build a credit risk classification model using a dataset of historical lending activity from a peer-to-peer lending services company. The objective is to create a model that can accurately identify the creditworthiness of borrowers, distinguishing between healthy loans and high-risk loans.
 
