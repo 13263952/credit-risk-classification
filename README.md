@@ -5,27 +5,24 @@ This project aims to build a credit risk classification model using a dataset of
 
 ## Steps Taken
 
-1. **Repository Setup**
-   - Created a new repository called "credit-risk-classification" specifically for this project.
-   - Cloned the repository to the local computer.
 
-2. **Data Preparation**
+1. **Data Preparation**
    - Read the "lending_data.csv" data file from the Resources folder into a Pandas DataFrame.
    - Created the labels set (y) from the "loan_status" column, indicating 0 for healthy loans and 1 for high-risk loans.
    - Created the features DataFrame (X) from the remaining columns.
    - Split the data into training and testing datasets using the train_test_split function.
 
-3. **Logistic Regression Model**
+2. **Logistic Regression Model**
    - Developed a logistic regression model using the training data (X_train and y_train).
    - Applied the fitted model to make predictions for the testing data labels using X_test.
 
-4. **Model Evaluation**
+3. **Model Evaluation**
    - Evaluated the performance of the logistic regression model by performing the following steps:
      - Generated a confusion matrix to analyze true positives, true negatives, false positives, and false negatives.
      - Printed the classification report, including accuracy, precision, recall, and F1-score metrics.
      - Analyzed the model's ability to predict both healthy loans (0 labels) and high-risk loans (1 labels).
 ![Classificcation Report](images/classification-report.png)
-5. **Credit Risk Analysis Report**
+4. **Credit Risk Analysis Report**
 
    - Included a summary and analysis of the machine learning model's performance.
    - Described the accuracy score, precision score, and recall score using a bulleted list.
